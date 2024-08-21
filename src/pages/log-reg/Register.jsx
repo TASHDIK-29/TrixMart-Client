@@ -1,29 +1,78 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import useAxiosPublic from "../../hooks/useAxiosPublic";
+import Swal from "sweetalert2";
 
 const Register = () => {
+
+
+    const axiosPublic = useAxiosPublic();
+    const navigate = useNavigate();
+
+    const handelRegister = async e => {
+        e.preventDefault();
+
+        const form = e.target;
+
+        const firstName = form.firstName.value;
+        const lastName = form.lastName.value;
+        const phone = form.phone.value;
+        const email = form.email.value;
+        const password = form.password.value;
+
+        // console.log(name, phone, email, password, type);
+        const userInfo = {
+            firstName, lastName, email, phone, password
+        }
+
+        console.log(userInfo);
+
+        const res = await axiosPublic.post('/register', userInfo)
+        console.log(res.data);
+
+        if (res.data.insertedId) {
+
+            Swal.fire({
+                position: "top-center",
+                icon: "success",
+                title: "You have successfully create an account",
+                showConfirmButton: false,
+                timer: 1500
+            });
+
+             navigate('/login');
+        }
+
+
+    }
+
+
+
     return (
         <div className="space-y-4">
             <h1 className="text-4xl font-bold">Register Your Account</h1>
-            <p>If you have an account with us, please login at the <Link to={'/login'} className="text-purple-600 font-semibold text-xl">Login</Link> page</p>
+            <p>If you have an account with us, please login at the <Link to={'/login'} className="text-purple-600 font-bold text-lg">Login</Link> page</p>
             <div className="space-y-2">
                 <h3 className="text-xl text-slate-500 font-semibold">Your Personal Details</h3>
 
                 <div>
-                    <form>
+                    <form onSubmit={handelRegister}>
                         <div className="grid grid-cols-5 gap-6 items-center w-4/6">
                             <label className="text-slate-400 font-semibold">First Name</label>
-                            <input type="text" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="First Name" />
+                            <input type="text" name="firstName" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="First Name" />
 
                             <label className="text-slate-400 font-semibold">Last Name</label>
-                            <input type="text" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Last Name" />
+                            <input type="text" name="lastName" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Last Name" />
 
                             <label className="text-slate-400 font-semibold">Email</label>
-                            <input type="email" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Your Email" />
+                            <input type="email" name="email" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Your Email" />
+
+                            <label className="text-slate-400 font-semibold">Phone</label>
+                            <input type="text" name="phone" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Your Phone" />
 
                             <label className="text-slate-400 font-semibold">Password</label>
-                            <input type="password" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Enter Password" />
+                            <input type="password" name="password" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Enter Password" />
 
-                            <button className="border p-2 text-slate-600 font-bold col-span-5">Register</button>
+                            <button type="submit" className="border p-2 text-slate-600 font-bold col-span-5">Register</button>
                         </div>
                     </form>
                 </div>
