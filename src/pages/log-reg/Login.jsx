@@ -34,7 +34,8 @@ const Login = () => {
         if (res.token) {
             localStorage.setItem('token', res.token);
             localStorage.setItem('credential', email);
-            setUser({ ...res.user });
+            localStorage.setItem('user', JSON.stringify(res.user));
+            // setUser({ ...res.user });
             
             navigate('/');
         }
