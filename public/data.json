@@ -1,0 +1,395 @@
+[
+    {
+      "productName": "Casual Cotton T-Shirt",
+      "image": "https://example.com/images/casual-cotton-tshirt.jpg",
+      "price": 19.99,
+      "ratings": 4.5,
+      "category": "cloth"
+    },
+    {
+      "productName": "Bluetooth Smartwatch",
+      "image": "https://example.com/images/bluetooth-smartwatch.jpg",
+      "price": 99.99,
+      "ratings": 4.7,
+      "category": "gadget"
+    },
+    {
+      "productName": "Wooden Toy Train Set",
+      "image": "https://example.com/images/wooden-toy-train.jpg",
+      "price": 29.99,
+      "ratings": 4.6,
+      "category": "toy"
+    },
+    {
+      "productName": "Modern Leather Sofa",
+      "image": "https://example.com/images/modern-leather-sofa.jpg",
+      "price": 899.99,
+      "ratings": 4.8,
+      "category": "furniture"
+    },
+    {
+      "productName": "Denim Jacket",
+      "image": "https://example.com/images/denim-jacket.jpg",
+      "price": 59.99,
+      "ratings": 4.4,
+      "category": "cloth"
+    },
+    {
+      "productName": "Wireless Earbuds",
+      "image": "https://example.com/images/wireless-earbuds.jpg",
+      "price": 49.99,
+      "ratings": 4.3,
+      "category": "gadget"
+    },
+    {
+      "productName": "Plush Teddy Bear",
+      "image": "https://example.com/images/plush-teddy-bear.jpg",
+      "price": 14.99,
+      "ratings": 4.9,
+      "category": "toy"
+    },
+    {
+      "productName": "Wooden Coffee Table",
+      "image": "https://example.com/images/wooden-coffee-table.jpg",
+      "price": 149.99,
+      "ratings": 4.7,
+      "category": "furniture"
+    },
+    {
+      "productName": "Athletic Running Shoes",
+      "image": "https://example.com/images/athletic-running-shoes.jpg",
+      "price": 79.99,
+      "ratings": 4.6,
+      "category": "cloth"
+    },
+    {
+      "productName": "4K Action Camera",
+      "image": "https://example.com/images/4k-action-camera.jpg",
+      "price": 149.99,
+      "ratings": 4.8,
+      "category": "gadget"
+    },
+    {
+      "productName": "Lego Building Set",
+      "image": "https://example.com/images/lego-building-set.jpg",
+      "price": 59.99,
+      "ratings": 4.9,
+      "category": "toy"
+    },
+    {
+      "productName": "Ergonomic Office Chair",
+      "image": "https://example.com/images/ergonomic-office-chair.jpg",
+      "price": 249.99,
+      "ratings": 4.5,
+      "category": "furniture"
+    },
+    {
+      "productName": "Woolen Scarf",
+      "image": "https://example.com/images/woolen-scarf.jpg",
+      "price": 24.99,
+      "ratings": 4.3,
+      "category": "cloth"
+    },
+    {
+      "productName": "Portable Bluetooth Speaker",
+      "image": "https://example.com/images/bluetooth-speaker.jpg",
+      "price": 34.99,
+      "ratings": 4.6,
+      "category": "gadget"
+    },
+    {
+      "productName": "Remote Control Car",
+      "image": "https://example.com/images/remote-control-car.jpg",
+      "price": 39.99,
+      "ratings": 4.7,
+      "category": "toy"
+    },
+    {
+      "productName": "Classic Wooden Dining Table",
+      "image": "https://example.com/images/wooden-dining-table.jpg",
+      "price": 799.99,
+      "ratings": 4.9,
+      "category": "furniture"
+    },
+    {
+      "productName": "Leather Wallet",
+      "image": "https://example.com/images/leather-wallet.jpg",
+      "price": 49.99,
+      "ratings": 4.5,
+      "category": "cloth"
+    },
+    {
+      "productName": "Smart Home Hub",
+      "image": "https://example.com/images/smart-home-hub.jpg",
+      "price": 129.99,
+      "ratings": 4.8,
+      "category": "gadget"
+    },
+    {
+      "productName": "Action Figure Set",
+      "image": "https://example.com/images/action-figure-set.jpg",
+      "price": 24.99,
+      "ratings": 4.4,
+      "category": "toy"
+    },
+    {
+      "productName": "King Size Bed Frame",
+      "image": "https://example.com/images/king-size-bed.jpg",
+      "price": 999.99,
+      "ratings": 4.8,
+      "category": "furniture"
+    },
+    {
+      "productName": "Silk Tie",
+      "image": "https://example.com/images/silk-tie.jpg",
+      "price": 19.99,
+      "ratings": 4.2,
+      "category": "cloth"
+    },
+    {
+      "productName": "Noise Cancelling Headphones",
+      "image": "https://example.com/images/noise-cancelling-headphones.jpg",
+      "price": 199.99,
+      "ratings": 4.7,
+      "category": "gadget"
+    },
+    {
+      "productName": "Stuffed Animal Set",
+      "image": "https://example.com/images/stuffed-animal-set.jpg",
+      "price": 29.99,
+      "ratings": 4.6,
+      "category": "toy"
+    },
+    {
+      "productName": "Reclining Sofa",
+      "image": "https://example.com/images/reclining-sofa.jpg",
+      "price": 1199.99,
+      "ratings": 4.9,
+      "category": "furniture"
+    },
+    {
+      "productName": "Cotton Polo Shirt",
+      "image": "https://example.com/images/cotton-polo-shirt.jpg",
+      "price": 29.99,
+      "ratings": 4.4,
+      "category": "cloth"
+    },
+    {
+      "productName": "Smart Thermostat",
+      "image": "https://example.com/images/smart-thermostat.jpg",
+      "price": 99.99,
+      "ratings": 4.6,
+      "category": "gadget"
+    },
+    {
+      "productName": "Puzzle Game Set",
+      "image": "https://example.com/images/puzzle-game-set.jpg",
+      "price": 19.99,
+      "ratings": 4.5,
+      "category": "toy"
+    },
+    {
+      "productName": "Wooden Bookshelf",
+      "image": "https://example.com/images/wooden-bookshelf.jpg",
+      "price": 199.99,
+      "ratings": 4.7,
+      "category": "furniture"
+    },
+    {
+      "productName": "Leather Belt",
+      "image": "https://example.com/images/leather-belt.jpg",
+      "price": 34.99,
+      "ratings": 4.3,
+      "category": "cloth"
+    },
+    {
+      "productName": "Fitness Tracker",
+      "image": "https://example.com/images/fitness-tracker.jpg",
+      "price": 59.99,
+      "ratings": 4.6,
+      "category": "gadget"
+    },
+    {
+      "productName": "Building Blocks Set",
+      "image": "https://example.com/images/building-blocks-set.jpg",
+      "price": 24.99,
+      "ratings": 4.8,
+      "category": "toy"
+    },
+    {
+      "productName": "Luxury Recliner",
+      "image": "https://example.com/images/luxury-recliner.jpg",
+      "price": 699.99,
+      "ratings": 4.8,
+      "category": "furniture"
+    },
+    {
+      "productName": "Summer Dress",
+      "image": "https://example.com/images/summer-dress.jpg",
+      "price": 49.99,
+      "ratings": 4.7,
+      "category": "cloth"
+    },
+    {
+      "productName": "Wireless Charger",
+      "image": "https://example.com/images/wireless-charger.jpg",
+      "price": 29.99,
+      "ratings": 4.5,
+      "category": "gadget"
+    },
+    {
+      "productName": "Toy Robot",
+      "image": "https://example.com/images/toy-robot.jpg",
+      "price": 39.99,
+      "ratings": 4.6,
+      "category": "toy"
+    },
+    {
+      "productName": "Wooden Nightstand",
+      "image": "https://example.com/images/wooden-nightstand.jpg",
+      "price": 89.99,
+      "ratings": 4.7,
+      "category": "furniture"
+    },
+    {
+      "productName": "Formal Dress Shoes",
+      "image": "https://example.com/images/formal-dress-shoes.jpg",
+      "price": 79.99,
+      "ratings": 4.4,
+      "category": "cloth"
+    },
+    {
+      "productName": "Smart Doorbell",
+      "image": "https://example.com/images/smart-doorbell.jpg",
+      "price": 149.99,
+      "ratings": 4.6,
+      "category": "gadget"
+    },
+    {
+      "productName": "Interactive Learning Tablet",
+      "image": "https://example.com/images/interactive-learning-tablet.jpg",
+      "price": 59.99,
+      "ratings": 4.8,
+      "category": "toy"
+    },
+    {
+      "productName": "Convertible Sofa Bed",
+      "image": "https://example.com/images/convertible-sofa-bed.jpg",
+      "price": 549.99,
+      "ratings": 4.7,
+      "category": "furniture"
+    },
+    {
+      "productName": "Woolen Sweater",
+      "image": "https://example.com/images/woolen-sweater.jpg",
+      "price": 39.99,
+      "ratings": 4.5,
+      "category": "cloth"
+    },
+    {
+      "productName": "VR Headset",
+      "image": "https://example.com/images/vr-headset.jpg",
+      "price": 249.99,
+      "ratings": 4.7,
+      "category": "gadget"
+    },
+    {
+      "productName": "Toy Kitchen Set",
+      "image": "https://example.com/images/toy-kitchen-set.jpg",
+      "price": 89.99,
+      "ratings": 4.6,
+      "category": "toy"
+    },
+    {
+      "productName": "Marble Coffee Table",
+      "image": "https://example.com/images/marble-coffee-table.jpg",
+      "price": 399.99,
+      "ratings": 4.8,
+      "category": "furniture"
+    },
+    {
+      "productName": "Summer Shorts",
+      "image": "https://example.com/images/summer-shorts.jpg",
+      "price": 24.99,
+      "ratings": 4.3,
+      "category": "cloth"
+    },
+    {
+      "productName": "Wireless Keyboard",
+      "image": "https://example.com/images/wireless-keyboard.jpg",
+      "price": 69.99,
+      "ratings": 4.7,
+      "category": "gadget"
+    },
+    {
+      "productName": "Puzzle Box",
+      "image": "https://example.com/images/puzzle-box.jpg",
+      "price": 14.99,
+      "ratings": 4.5,
+      "category": "toy"
+    },
+    {
+      "productName": "Leather Armchair",
+      "image": "https://example.com/images/leather-armchair.jpg",
+      "price": 699.99,
+      "ratings": 4.8,
+      "category": "furniture"
+    },
+    {
+      "productName": "Silk Blouse",
+      "image": "https://example.com/images/silk-blouse.jpg",
+      "price": 54.99,
+      "ratings": 4.6,
+      "category": "cloth"
+    },
+    {
+      "productName": "Smart Light Bulbs",
+      "image": "https://example.com/images/smart-light-bulbs.jpg",
+      "price": 49.99,
+      "ratings": 4.7,
+      "category": "gadget"
+    },
+    {
+      "productName": "Toy Train Set",
+      "image": "https://example.com/images/toy-train-set.jpg",
+      "price": 34.99,
+      "ratings": 4.7,
+      "category": "toy"
+    },
+    {
+      "productName": "Wooden Wardrobe",
+      "image": "https://example.com/images/wooden-wardrobe.jpg",
+      "price": 899.99,
+      "ratings": 4.9,
+      "category": "furniture"
+    },
+    {
+      "productName": "Cotton Pajamas",
+      "image": "https://example.com/images/cotton-pajamas.jpg",
+      "price": 29.99,
+      "ratings": 4.6,
+      "category": "cloth"
+    },
+    {
+      "productName": "Bluetooth Tracker",
+      "image": "https://example.com/images/bluetooth-tracker.jpg",
+      "price": 19.99,
+      "ratings": 4.5,
+      "category": "gadget"
+    },
+    {
+      "productName": "Action Toy Set",
+      "image": "https://example.com/images/action-toy-set.jpg",
+      "price": 24.99,
+      "ratings": 4.8,
+      "category": "toy"
+    },
+    {
+      "productName": "Modern TV Stand",
+      "image": "https://example.com/images/modern-tv-stand.jpg",
+      "price": 349.99,
+      "ratings": 4.7,
+      "category": "furniture"
+    }
+  ]
+  

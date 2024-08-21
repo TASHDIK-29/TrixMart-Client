@@ -10,16 +10,28 @@ const AuthProvider = ({ children }) => {
 
     const [user, setUser] = useState(null);
 
-    // const storedUser = JSON.parse(localStorage.getItem('user'))
-    // if (storedUser) {
-    //     setUser(storedUser)
-    // }
+    const [cloths, setCloths] = useState([])
+    const [gadgets, setGadgets] = useState([])
+    const [toys, setToys] = useState([])
+    const [furniture, setFurniture] = useState([])
 
     useEffect(() => {
         const storedUser = JSON.parse(localStorage.getItem('user'))
         if (storedUser) {
             setUser(storedUser)
         }
+
+        const loadHomeData = async() =>{
+            const res = await axiosPublic.get('/homeData')
+            console.log(res.data);
+
+            setCloths(res.data.cloths)
+            setGadgets(res.data.gadgets)
+            setToys(res.data.toys)
+            setFurniture(res.data.furniture)
+        }
+
+        loadHomeData();
 
     }, [])
 
@@ -50,7 +62,7 @@ const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, setUser, login, logout }}>
+        <AuthContext.Provider value={{ user, setUser, login, logout, furniture, toys, gadgets, cloths }}>
             {children}
         </AuthContext.Provider>
     );

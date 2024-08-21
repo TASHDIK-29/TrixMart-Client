@@ -8,7 +8,7 @@ import slider4 from '../../assets/ban4.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/bundle";
-import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 
 const Banner = () => {
@@ -33,10 +33,10 @@ const Banner = () => {
                     <img src={slider1} className='w-full max-h-[80vh] rounded-2xl' alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slider2} className='w-full max-h-[80vh] rounded-2xl' alt="" />
+                    <img src={slider3} className='w-full max-h-[80vh] rounded-2xl' alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slider3} className='w-full max-h-[80vh] rounded-2xl' alt="" />
+                    <img src={slider2} className='w-full max-h-[80vh] rounded-2xl' alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slider4} className='w-full max-h-[80vh] rounded-2xl' alt="" />

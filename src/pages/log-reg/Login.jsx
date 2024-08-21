@@ -1,14 +1,15 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Login = () => {
 
 
     const { login, user, setUser } = useContext(AuthContext);
 
-    const [pinError, setPinError] = useState(null)
-    const [credentialError, setCredentialError] = useState(null)
+    // const [passwordError, setPasswordError] = useState(null)
+    // const [credentialError, setCredentialError] = useState(null)
 
     const navigate = useNavigate();
 
@@ -18,8 +19,8 @@ const Login = () => {
     const handelLogin = async e => {
         e.preventDefault();
 
-        setCredentialError(null);
-        setPinError(null);
+        // setCredentialError(null);
+        // setPasswordError(null);
 
         const form = e.target;
 
@@ -40,10 +41,10 @@ const Login = () => {
             navigate('/');
         }
         else if (res.user && !res.password) {
-            setPinError('Invalid Pin')
+            toast.error('Invalid Password!')
         }
         else {
-            setCredentialError('Invalid credential')
+            toast.error(`Invalid credential : ${email}`)
         }
 
     }
