@@ -86,7 +86,7 @@ const Dropdown = () => {
                     </a>
                     <button
                         onClick={toggleCartModal}
-                        className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white w-full text-start"
                     >
                         Cart
                     </button>

@@ -1,10 +1,12 @@
 // src/AuthContext.js
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import useAxiosPublic from '../hooks/useAxiosPublic';
 
 const AuthContext = createContext();
+
+export const useAuth = () => useContext(AuthContext);
 
 const AuthProvider = ({ children }) => {
 
