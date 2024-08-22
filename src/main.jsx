@@ -25,6 +25,22 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
+        path: '/cloths',
+        element: <Cloths />
+      },
+      {
+        path: '/gadgets',
+        element: <Gadgets />
+      },
+      {
+        path: '/toys',
+        element: <Toys />
+      },
+      {
+        path: '/furniture',
+        element: <Furniture />
+      },
+      {
         path: '/login',
         element: <Login />
       },
@@ -36,11 +52,26 @@ const router = createBrowserRouter([
   },
 ]);
 
+
+
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+import Cloths from './pages/productPages/Cloths';
+import Gadgets from './pages/productPages/Gadgets';
+import Toys from './pages/productPages/Toys';
+import Furniture from './pages/productPages/Furniture';
+
+const queryClient = new QueryClient()
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router} />
-    </AuthProvider>
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
+    </QueryClientProvider>
     <Toaster />
   </StrictMode>,
 )

@@ -68,25 +68,25 @@ const Navbar = () => {
                     >
                         <div className="flex flex-col capitalize text-gray-300 lg:flex lg:pl-16 lg:-mx-4 lg:flex-row lg:items-center lg:justify-center w-10/12">
                             <Link
-                                href="#"
+                                to={'/cloths'}
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4  hover:text-gray-200"
                             >
                                 Cloths
                             </Link>
                             <Link
-                                href="#"
+                                to={'/gadgets'}
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4  hover:text-gray-200"
                             >
                                 Gadgets
                             </Link>
                             <Link
-                                href="#"
+                                to={'/toys'}
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4  hover:text-gray-200"
                             >
                                 Toys
                             </Link>
                             <Link
-                                href="#"
+                                to={'/furniture'}
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4  hover:text-gray-200"
                             >
                                 Furniture
