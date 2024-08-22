@@ -62,15 +62,18 @@ import Cloths from './pages/productPages/Cloths';
 import Gadgets from './pages/productPages/Gadgets';
 import Toys from './pages/productPages/Toys';
 import Furniture from './pages/productPages/Furniture';
+import { CartProvider } from './provider/CartProvider';
 
 const queryClient = new QueryClient()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <AuthProvider>
-        <RouterProvider router={router} />
-      </AuthProvider>
+      <CartProvider>
+        <AuthProvider>
+          <RouterProvider router={router} />
+        </AuthProvider>
+      </CartProvider>
     </QueryClientProvider>
     <Toaster />
   </StrictMode>,

@@ -1,8 +1,11 @@
 import { useState, useEffect, useRef, useContext } from 'react';
 import { AuthContext } from '../../provider/AuthProvider';
 import { useNavigate } from 'react-router-dom';
+import { useCart } from '../../provider/CartProvider';
 
 const Dropdown = () => {
+
+    const { toggleCartModal } = useCart();
 
     const { user, logout } = useContext(AuthContext);
 
@@ -81,12 +84,12 @@ const Dropdown = () => {
                     >
                         View Profile
                     </a>
-                    <a
-                        href="#"
+                    <button
+                        onClick={toggleCartModal}
                         className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                         Cart
-                    </a>
+                    </button>
 
                     <hr className="border-gray-700" />
 

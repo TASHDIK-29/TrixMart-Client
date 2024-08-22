@@ -8,7 +8,7 @@ const Furniture = () => {
     return (
         <div className="space-y-10">
             <div>
-                <h1 className="text-3xl font-normal">Our Exclusive Cloths Collections</h1>
+                <h1 className="text-3xl font-normal">Our Exclusive Furniture Collections</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum totam provident incidunt eius debitis voluptates in illo voluptas fugit modi.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
