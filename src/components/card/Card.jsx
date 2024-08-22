@@ -17,7 +17,8 @@ const Card = ({ item }) => {
             productName,
             image,
             price,
-            productId: _id
+            productId: _id,
+            quantity: 1
         }
 
         const res = await axiosSecure.post('/addToCart', cartInfo)
