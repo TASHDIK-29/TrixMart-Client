@@ -41,6 +41,10 @@ const router = createBrowserRouter([
         element: <Furniture />
       },
       {
+        path: '/profile',
+        element: <Profile />
+      },
+      {
         path: '/login',
         element: <Login />
       },
@@ -63,6 +67,7 @@ import Gadgets from './pages/productPages/Gadgets';
 import Toys from './pages/productPages/Toys';
 import Furniture from './pages/productPages/Furniture';
 import { CartProvider } from './provider/CartProvider';
+import Profile from './pages/profile/Profile';
 
 const queryClient = new QueryClient()
 

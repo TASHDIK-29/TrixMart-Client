@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useContext } from 'react';
 import { AuthContext } from '../../provider/AuthProvider';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../../provider/CartProvider';
 
 const Dropdown = () => {
@@ -78,14 +78,15 @@ const Dropdown = () => {
 
                     <hr className="border-gray-700" />
 
-                    <a
-                        href="#"
-                        className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white"
+                    <Link
+                        to={'/profile'}
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white w-full text-start"
                     >
                         View Profile
-                    </a>
+                    </Link>
                     <button
-                        onClick={toggleCartModal}
+                        onClick={() => {toggleCartModal() ; setIsOpen(!isOpen)}}
                         className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white w-full text-start"
                     >
                         Cart
