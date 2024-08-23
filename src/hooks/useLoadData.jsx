@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import useAxiosPublic from "./useAxiosPublic";
 
 const useLoadData = (category, currentPage) => {
@@ -10,7 +10,8 @@ const useLoadData = (category, currentPage) => {
             const res = await axiosPublic.get('/products', { params: { category, currentPage } });
 
             return res.data;
-        }
+        },
+        
     })
 
     // console.log(products);
