@@ -92,6 +92,14 @@ const Dropdown = () => {
                         Cart
                     </button>
 
+                    <Link
+                        to={'/orders'}
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="block px-4 py-3 text-sm capitalize transition-colors duration-300 transform text-gray-300 hover:bg-gray-700 hover:text-white w-full text-start"
+                    >
+                        Order History
+                    </Link>
+
                     <hr className="border-gray-700" />
 
                     <button

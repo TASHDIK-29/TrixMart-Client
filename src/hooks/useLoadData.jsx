@@ -3,7 +3,6 @@ import useAxiosPublic from "./useAxiosPublic";
 
 const useLoadData = (category) => {
     const axiosPublic = useAxiosPublic();
-    console.log('category=', category);
 
     const { data: products = [] } = useQuery({
         queryKey: ['products'],

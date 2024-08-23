@@ -6,6 +6,7 @@ import { MdOutlineConfirmationNumber } from "react-icons/md";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 import { CiSquarePlus, CiSquareMinus } from "react-icons/ci";
 import { useEffect, useState } from "react";
+import useOrders from "../../hooks/useOrders";
 
 const AllCartModal = () => {
 
@@ -33,6 +34,7 @@ const AllCartModal = () => {
     const axiosPublic = useAxiosPublic();
 
     const [carts, refetch, error] = useLoadAllCart();
+    const [ , reloadOrder] = useOrders();
 
     useEffect(() => {
         setCartItems(carts);
@@ -55,6 +57,7 @@ const AllCartModal = () => {
 
         if (res.data?.remove?.deletedCount) {
             refetch();
+            reloadOrder();
         }
     }
 
