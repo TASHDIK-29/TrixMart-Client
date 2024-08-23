@@ -11,7 +11,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className=" shadow bg-gray-800 rounded-b-full fixed w-full z-50">
+        <nav className=" shadow bg-black bg-opacity-50 backdrop-blur-md fixed w-full z-50">
             <div className="container px-6 py-4 mx-auto">
                 <div className="lg:flex lg:items-center">
                     <div className="flex items-center justify-between">
@@ -63,10 +63,10 @@ const Navbar = () => {
                     </div>
 
                     <div
-                        className={`absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out  bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
+                        className={`absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-black opacity-50 mt-4 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
                             }`}
                     >
-                        <div className="flex flex-col capitalize text-gray-300 lg:flex lg:pl-16 lg:-mx-4 lg:flex-row lg:items-center lg:justify-center w-10/12">
+                        <div className="flex flex-col capitalize text-white font-semibold lg:flex lg:pl-16 lg:-mx-4 lg:flex-row lg:items-center lg:justify-center w-10/12">
                             <Link
                                 to={'/cloths'}
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4  hover:text-gray-200"
@@ -112,7 +112,8 @@ const Navbar = () => {
 
                                 <input
                                     type="text"
-                                    className="w-full py-1 pl-10 pr-4 border-b border-gray-600 placeholder-gray-300 focus:border-gray-300 lg:w-56 lg:border-transparent bg-gray-800 text-gray-300 focus:outline-none"
+                                    className="w-full py-1 pl-10 pr-4 border-b border-gray-600 placeholder-gray-300 focus:border-gray-300 lg:w-56 lg:border-transparent
+                                     bg-transparent text-gray-700 focus:outline-none"
                                     placeholder="Search"
                                 />
                             </div>
@@ -121,8 +122,8 @@ const Navbar = () => {
                         <div className="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
                             {
                                 user ? <Dropdown />
-                                    : <Link to={'/login'} className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
-                                        <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"></span>
+                                    : <Link to={'/login'} className="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-slate-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
+                                        <span className="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-slate-600 group-hover:h-full"></span>
                                         <span className="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                                             <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                                         </span>

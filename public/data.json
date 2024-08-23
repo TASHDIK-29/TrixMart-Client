@@ -1,394 +1,394 @@
 [
     {
       "productName": "Casual Cotton T-Shirt",
-      "image": "https://example.com/images/casual-cotton-tshirt.jpg",
+      "image": "https://img.freepik.com/premium-photo/minimalist-black-tshirt_1190923-925.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 19.99,
-      "ratings": 4.5,
+      "ratings": 5,
       "category": "cloth"
     },
     {
       "productName": "Bluetooth Smartwatch",
-      "image": "https://example.com/images/bluetooth-smartwatch.jpg",
+      "image": "https://img.freepik.com/premium-photo/white-apple-watch-with-black-face-white-band_561855-91743.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 99.99,
       "ratings": 4.7,
       "category": "gadget"
     },
     {
       "productName": "Wooden Toy Train Set",
-      "image": "https://example.com/images/wooden-toy-train.jpg",
+      "image": "https://img.freepik.com/free-photo/childhood-activity-concept-with-toy-train-wooden-cubes-wooden-table-side-view_176474-9386.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 29.99,
-      "ratings": 4.6,
+      "ratings": 4,
       "category": "toy"
     },
     {
       "productName": "Modern Leather Sofa",
-      "image": "https://example.com/images/modern-leather-sofa.jpg",
+      "image": "https://img.freepik.com/free-photo/brown-sofa-blue-room_1194-6647.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 899.99,
-      "ratings": 4.8,
+      "ratings": 5,
       "category": "furniture"
     },
     {
       "productName": "Denim Jacket",
-      "image": "https://example.com/images/denim-jacket.jpg",
+      "image": "https://img.freepik.com/premium-photo/black-leather-jacket-with-word-s-front_1313274-9121.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 59.99,
-      "ratings": 4.4,
+      "ratings": 4,
       "category": "cloth"
     },
     {
       "productName": "Wireless Earbuds",
-      "image": "https://example.com/images/wireless-earbuds.jpg",
+      "image": "https://img.freepik.com/premium-photo/blue-wireless-earbuds-charging-case-with-white-background_1102161-8066.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 49.99,
-      "ratings": 4.3,
+      "ratings": 5,
       "category": "gadget"
     },
     {
       "productName": "Plush Teddy Bear",
-      "image": "https://example.com/images/plush-teddy-bear.jpg",
+      "image": "https://img.freepik.com/free-psd/teddy-holding-paper_53876-12210.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 14.99,
-      "ratings": 4.9,
+      "ratings": 4,
       "category": "toy"
     },
     {
       "productName": "Wooden Coffee Table",
-      "image": "https://example.com/images/wooden-coffee-table.jpg",
+      "image": "https://img.freepik.com/free-vector/modern-black-oval-coffee-table-white-background-realistic-vector-illustration_1284-66955.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 149.99,
-      "ratings": 4.7,
+      "ratings": 4,
       "category": "furniture"
     },
     {
       "productName": "Athletic Running Shoes",
-      "image": "https://example.com/images/athletic-running-shoes.jpg",
+      "image": "https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 79.99,
-      "ratings": 4.6,
+      "ratings": 5,
       "category": "cloth"
     },
     {
       "productName": "4K Action Camera",
-      "image": "https://example.com/images/4k-action-camera.jpg",
+      "image": "https://img.freepik.com/free-photo/view-3d-camera_23-2151067034.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 149.99,
-      "ratings": 4.8,
+      "ratings": 4,
       "category": "gadget"
     },
     {
       "productName": "Lego Building Set",
-      "image": "https://example.com/images/lego-building-set.jpg",
+      "image": "https://img.freepik.com/premium-photo/lego-building-set-isolated-isolated-transparent-background_1033130-8691.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 59.99,
-      "ratings": 4.9,
+      "ratings": 3,
       "category": "toy"
     },
     {
       "productName": "Ergonomic Office Chair",
-      "image": "https://example.com/images/ergonomic-office-chair.jpg",
+      "image": "https://img.freepik.com/free-photo/home-appliance-seat-interior-ergonomic-sign_1172-512.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 249.99,
-      "ratings": 4.5,
+      "ratings": 4,
       "category": "furniture"
     },
     {
       "productName": "Woolen Scarf",
-      "image": "https://example.com/images/woolen-scarf.jpg",
+      "image": "https://img.freepik.com/free-photo/red-winter-scarf-isolated-white-background_1101-2407.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 24.99,
-      "ratings": 4.3,
+      "ratings": 3,
       "category": "cloth"
     },
     {
       "productName": "Portable Bluetooth Speaker",
-      "image": "https://example.com/images/bluetooth-speaker.jpg",
+      "image": "https://img.freepik.com/free-vector/portable-speaker-with-digital-radio-clock-illustration_1441-2614.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 34.99,
-      "ratings": 4.6,
+      "ratings": 4,
       "category": "gadget"
     },
     {
       "productName": "Remote Control Car",
-      "image": "https://example.com/images/remote-control-car.jpg",
+      "image": "https://img.freepik.com/premium-photo/toy-car-with-remote-control-floor_861161-21631.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 39.99,
-      "ratings": 4.7,
+      "ratings": 5,
       "category": "toy"
     },
     {
       "productName": "Classic Wooden Dining Table",
-      "image": "https://example.com/images/wooden-dining-table.jpg",
+      "image": "https://img.freepik.com/premium-photo/sculpted-excellence-dining-set-dark-walnut-finish-generative-ai_893610-4115.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 799.99,
-      "ratings": 4.9,
+      "ratings": 5,
       "category": "furniture"
     },
     {
       "productName": "Leather Wallet",
-      "image": "https://example.com/images/leather-wallet.jpg",
+      "image": "https://img.freepik.com/free-photo/leather-wallet-isolated-white_1232-1814.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 49.99,
-      "ratings": 4.5,
+      "ratings": 4,
       "category": "cloth"
     },
     {
       "productName": "Smart Home Hub",
-      "image": "https://example.com/images/smart-home-hub.jpg",
+      "image": "https://img.freepik.com/free-photo/devices-arrangement-desk_23-2148994217.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 129.99,
-      "ratings": 4.8,
+      "ratings": 4,
       "category": "gadget"
     },
     {
       "productName": "Action Figure Set",
-      "image": "https://example.com/images/action-figure-set.jpg",
+      "image": "https://img.freepik.com/premium-photo/vintage-toy-black-soldiers-isolated-white-background_217593-13237.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 24.99,
-      "ratings": 4.4,
+      "ratings": 4,
       "category": "toy"
     },
     {
       "productName": "King Size Bed Frame",
-      "image": "https://example.com/images/king-size-bed.jpg",
+      "image": "https://img.freepik.com/premium-photo/bed-with-white-sheet-that-says-name-bottom_999340-75636.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 999.99,
-      "ratings": 4.8,
+      "ratings": 5,
       "category": "furniture"
     },
     {
       "productName": "Silk Tie",
-      "image": "https://example.com/images/silk-tie.jpg",
+      "image": "https://img.freepik.com/free-photo/bow-tie_144627-20903.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 19.99,
-      "ratings": 4.2,
+      "ratings": 3,
       "category": "cloth"
     },
     {
       "productName": "Noise Cancelling Headphones",
-      "image": "https://example.com/images/noise-cancelling-headphones.jpg",
+      "image": "https://img.freepik.com/premium-photo/pair-black-headphones-with-silver-band_1288405-1540.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 199.99,
-      "ratings": 4.7,
+      "ratings": 3,
       "category": "gadget"
     },
     {
       "productName": "Stuffed Animal Set",
-      "image": "https://example.com/images/stuffed-animal-set.jpg",
+      "image": "https://img.freepik.com/premium-photo/isolated-collection-plush-bears-white-background_717906-99504.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 29.99,
-      "ratings": 4.6,
+      "ratings": 5,
       "category": "toy"
     },
     {
       "productName": "Reclining Sofa",
-      "image": "https://example.com/images/reclining-sofa.jpg",
+      "image": "https://img.freepik.com/premium-photo/stylish-reclining-sofa-cozy-living-room-setting-with-soft-textures-elegant-design_431161-96390.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 1199.99,
       "ratings": 4.9,
       "category": "furniture"
     },
     {
       "productName": "Cotton Polo Shirt",
-      "image": "https://example.com/images/cotton-polo-shirt.jpg",
+      "image": "https://img.freepik.com/premium-photo/three-man-white-polo-tshirt-white-background_639785-72491.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 29.99,
-      "ratings": 4.4,
+      "ratings": 4,
       "category": "cloth"
     },
     {
       "productName": "Smart Thermostat",
-      "image": "https://example.com/images/smart-thermostat.jpg",
+      "image": "https://img.freepik.com/free-photo/smart-device-that-controls-house-s-warmth_60438-3625.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 99.99,
-      "ratings": 4.6,
+      "ratings": 4,
       "category": "gadget"
     },
     {
       "productName": "Puzzle Game Set",
-      "image": "https://example.com/images/puzzle-game-set.jpg",
+      "image": "https://img.freepik.com/premium-vector/puzzle-piece-with-fish-fish-it_1120557-59776.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 19.99,
-      "ratings": 4.5,
+      "ratings": 3,
       "category": "toy"
     },
     {
       "productName": "Wooden Bookshelf",
-      "image": "https://example.com/images/wooden-bookshelf.jpg",
+      "image": "https://img.freepik.com/free-vector/empty-wood-wall-shelf-book-isolated-vector_107791-27951.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 199.99,
-      "ratings": 4.7,
+      "ratings": 3,
       "category": "furniture"
     },
     {
       "productName": "Leather Belt",
-      "image": "https://example.com/images/leather-belt.jpg",
+      "image": "https://img.freepik.com/free-photo/fashion-belt-with-buckle_74190-4873.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 34.99,
-      "ratings": 4.3,
+      "ratings": 4,
       "category": "cloth"
     },
     {
       "productName": "Fitness Tracker",
-      "image": "https://example.com/images/fitness-tracker.jpg",
+      "image": "https://img.freepik.com/free-vector/realistic-fitness-tracker-bracelet-illustration_23-2148555260.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 59.99,
-      "ratings": 4.6,
+      "ratings": 4.9,
       "category": "gadget"
     },
     {
       "productName": "Building Blocks Set",
-      "image": "https://example.com/images/building-blocks-set.jpg",
+      "image": "https://img.freepik.com/premium-vector/collection-legos-including-one-that-has-brick-wall_1120557-56110.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 24.99,
-      "ratings": 4.8,
+      "ratings": 4,
       "category": "toy"
     },
     {
       "productName": "Luxury Recliner",
-      "image": "https://example.com/images/luxury-recliner.jpg",
+      "image": "https://img.freepik.com/free-photo/blue-chair-is-shown-photo_505751-3816.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 699.99,
       "ratings": 4.8,
       "category": "furniture"
     },
     {
       "productName": "Summer Dress",
-      "image": "https://example.com/images/summer-dress.jpg",
+      "image": "https://img.freepik.com/premium-vector/stylish-summer-clothing-set-women-casual-holiday-fashion_1323048-1868.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 49.99,
       "ratings": 4.7,
       "category": "cloth"
     },
     {
       "productName": "Wireless Charger",
-      "image": "https://example.com/images/wireless-charger.jpg",
+      "image": "https://img.freepik.com/free-photo/wireless-charger-digital-device_53876-97322.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 29.99,
-      "ratings": 4.5,
+      "ratings": 5,
       "category": "gadget"
     },
     {
       "productName": "Toy Robot",
-      "image": "https://example.com/images/toy-robot.jpg",
+      "image": "https://img.freepik.com/premium-photo/retro-tin-toy-walker-robot_891888-771.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 39.99,
-      "ratings": 4.6,
+      "ratings": 3,
       "category": "toy"
     },
     {
       "productName": "Wooden Nightstand",
-      "image": "https://example.com/images/wooden-nightstand.jpg",
+      "image": "https://img.freepik.com/premium-psd/wooden-nightstand-isolated-white-background_1300932-9689.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 89.99,
-      "ratings": 4.7,
+      "ratings": 3,
       "category": "furniture"
     },
     {
       "productName": "Formal Dress Shoes",
-      "image": "https://example.com/images/formal-dress-shoes.jpg",
+      "image": "https://img.freepik.com/premium-photo/mens-leather-black-shoe-white-background_1024356-274.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 79.99,
-      "ratings": 4.4,
+      "ratings": 4,
       "category": "cloth"
     },
     {
       "productName": "Smart Doorbell",
-      "image": "https://example.com/images/smart-doorbell.jpg",
+      "image": "https://img.freepik.com/premium-photo/3d-smart-doorbell-icon-internet-connected-home-security-illustration-logo_762678-65521.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 149.99,
-      "ratings": 4.6,
+      "ratings": 5,
       "category": "gadget"
     },
     {
       "productName": "Interactive Learning Tablet",
-      "image": "https://example.com/images/interactive-learning-tablet.jpg",
+      "image": "https://img.freepik.com/free-photo/digital-tablet-screen-smart-tech_53876-96808.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 59.99,
       "ratings": 4.8,
       "category": "toy"
     },
     {
       "productName": "Convertible Sofa Bed",
-      "image": "https://example.com/images/convertible-sofa-bed.jpg",
+      "image": "https://img.freepik.com/premium-photo/modern-corner-convertible-sofa-bed-leather-sleeper-brown-white-color_636537-273362.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 549.99,
-      "ratings": 4.7,
+      "ratings": 4,
       "category": "furniture"
     },
     {
       "productName": "Woolen Sweater",
-      "image": "https://example.com/images/woolen-sweater.jpg",
+      "image": "https://img.freepik.com/free-photo/white-red-knitted-christmas-jumper-isolated-white-background_125540-5392.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 39.99,
-      "ratings": 4.5,
+      "ratings": 5,
       "category": "cloth"
     },
     {
       "productName": "VR Headset",
-      "image": "https://example.com/images/vr-headset.jpg",
+      "image": "https://img.freepik.com/free-vector/realistic-virtual-headset-augmented-reality_52683-52869.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 249.99,
-      "ratings": 4.7,
+      "ratings": 3,
       "category": "gadget"
     },
     {
       "productName": "Toy Kitchen Set",
-      "image": "https://example.com/images/toy-kitchen-set.jpg",
+      "image": "https://img.freepik.com/free-psd/3d-rendering-kitchen-tools-still-life_23-2151323521.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 89.99,
-      "ratings": 4.6,
+      "ratings": 3,
       "category": "toy"
     },
     {
       "productName": "Marble Coffee Table",
-      "image": "https://example.com/images/marble-coffee-table.jpg",
+      "image": "https://img.freepik.com/premium-photo/marble-table-with-white-marble-top-sits-room-with-marble-table-marble-table_1261950-45965.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 399.99,
-      "ratings": 4.8,
+      "ratings": 4,
       "category": "furniture"
     },
     {
       "productName": "Summer Shorts",
-      "image": "https://example.com/images/summer-shorts.jpg",
+      "image": "https://img.freepik.com/premium-photo/isolated-bermuda-shorts-kids-with-tropical-palm-tree-patterns-vib-fashion-design-concept-ideas_655090-3140726.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 24.99,
-      "ratings": 4.3,
+      "ratings": 3,
       "category": "cloth"
     },
     {
-      "productName": "Wireless Keyboard",
-      "image": "https://example.com/images/wireless-keyboard.jpg",
+      "productName": "Wireless Keyboard & Mouse",
+      "image": "https://img.freepik.com/free-photo/wireless-mouse-keyboard_1260-15.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 69.99,
       "ratings": 4.7,
       "category": "gadget"
     },
     {
       "productName": "Puzzle Box",
-      "image": "https://example.com/images/puzzle-box.jpg",
+      "image": "https://img.freepik.com/premium-photo/colorful-puzzle-box-with-assorted-pieces-arranged-various-shapes-sizes-plain-background_437323-21605.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 14.99,
-      "ratings": 4.5,
+      "ratings": 5,
       "category": "toy"
     },
     {
       "productName": "Leather Armchair",
-      "image": "https://example.com/images/leather-armchair.jpg",
+      "image": "https://img.freepik.com/free-vector/black-soft-leather-armchair-with-wooden-legs_107791-29806.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 699.99,
-      "ratings": 4.8,
+      "ratings": 5,
       "category": "furniture"
     },
     {
-      "productName": "Silk Blouse",
-      "image": "https://example.com/images/silk-blouse.jpg",
+      "productName": "Silk Top",
+      "image": "https://img.freepik.com/free-photo/studio-with-props-fashion-shoting_23-2148885692.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 54.99,
-      "ratings": 4.6,
+      "ratings": 4,
       "category": "cloth"
     },
     {
       "productName": "Smart Light Bulbs",
-      "image": "https://example.com/images/smart-light-bulbs.jpg",
+      "image": "https://img.freepik.com/premium-psd/light-bulb-that-is-turned-remote-control-is-turned-off_410516-235391.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 49.99,
-      "ratings": 4.7,
+      "ratings": 3,
       "category": "gadget"
     },
     {
       "productName": "Toy Train Set",
-      "image": "https://example.com/images/toy-train-set.jpg",
+      "image": "https://img.freepik.com/premium-photo/toy-train-set-with-locomotive-several-cars-isolated-white-background_220770-65242.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 34.99,
-      "ratings": 4.7,
+      "ratings": 2,
       "category": "toy"
     },
     {
       "productName": "Wooden Wardrobe",
-      "image": "https://example.com/images/wooden-wardrobe.jpg",
+      "image": "https://img.freepik.com/free-photo/wooden-piece-furniture-interior_23-2148848665.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 899.99,
-      "ratings": 4.9,
+      "ratings": 2,
       "category": "furniture"
     },
     {
       "productName": "Cotton Pajamas",
-      "image": "https://example.com/images/cotton-pajamas.jpg",
+      "image": "https://img.freepik.com/premium-photo/kiev-ukraine-02112021-love-lounge-white-sleep-pants-isolated-white-background_1216342-2153.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 29.99,
-      "ratings": 4.6,
+      "ratings": 3,
       "category": "cloth"
     },
     {
       "productName": "Bluetooth Tracker",
-      "image": "https://example.com/images/bluetooth-tracker.jpg",
+      "image": "https://img.freepik.com/premium-photo/fitness-tracker-isolated-white-background_972075-17922.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 19.99,
-      "ratings": 4.5,
+      "ratings": 5,
       "category": "gadget"
     },
     {
       "productName": "Action Toy Set",
-      "image": "https://example.com/images/action-toy-set.jpg",
+      "image": "https://img.freepik.com/premium-vector/cartoon-water-gun-kids-toy-weapons-comic-plastic-childish-handgun-equipment-wet-shoot-summer-game-happy-childhood-vector-isolated-set_102902-7124.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 24.99,
-      "ratings": 4.8,
+      "ratings": 3,
       "category": "toy"
     },
     {
       "productName": "Modern TV Stand",
-      "image": "https://example.com/images/modern-tv-stand.jpg",
+      "image": "https://img.freepik.com/premium-photo/tv-stand-modern-interior-living-room-design_33739-254.jpg?uid=R141467370&ga=GA1.1.221420494.1715600354&semt=ais_hybrid",
       "price": 349.99,
-      "ratings": 4.7,
+      "ratings": 4,
       "category": "furniture"
     }
   ]

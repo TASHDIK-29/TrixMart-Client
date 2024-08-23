@@ -11,7 +11,7 @@ const MainLayout = () => {
     return (
         <>
             <Navbar />
-            <div className="container mx-auto">
+            <div className="container mx-auto p-2">
                 <div className="h-[100px]"></div>
                 <Outlet />
             </div>

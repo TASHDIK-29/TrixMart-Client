@@ -56,7 +56,7 @@ const Register = () => {
 
                 <div>
                     <form onSubmit={handelRegister}>
-                        <div className="grid grid-cols-5 gap-6 items-center w-4/6">
+                        <div className="grid grid-cols-5 gap-6 items-center lg:w-4/6">
                             <label className="text-slate-400 font-semibold">First Name</label>
                             <input type="text" name="firstName" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="First Name" />
 
@@ -71,8 +71,8 @@ const Register = () => {
 
                             <label className="text-slate-400 font-semibold">Password</label>
                             <input type="password" name="password" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Enter Password" />
-
-                            <button type="submit" className="border p-2 text-slate-600 font-bold col-span-5">Register</button>
+                            <div></div>
+                            <button type="submit" className="border p-2 text-slate-600 font-bold col-span-4">Register</button>
                         </div>
                     </form>
                 </div>

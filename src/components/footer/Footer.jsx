@@ -12,19 +12,19 @@ const Footer = () => {
                     <h1 className="text-xl font-semibold tracking-tight  md:mx-3 xl:text-2xl text-white">Subscribe our newsletter to get update.</h1>
 
                     <div className="mt-6 md:mx-3 shrink-0 md:mt-0 md:w-auto">
-                        <a href="#" className="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg gap-x-3 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                        <p className="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg gap-x-3 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                             <span>Sign Up Now</span>
 
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                             </svg>
-                        </a>
+                        </p>
                     </div>
                 </div>
 
                 <hr className="my-6 border-gray-600 md:my-10 " />
 
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <div>
                         <p className="font-semibold text-white">Quick Link</p>
 
@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="col-span-2 lg:col-span-1">
                         <p className="font-semibold text-white">Services</p>
 
                         <div className="flex flex-col items-start mt-5 space-y-2">
@@ -60,7 +60,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="col-span-2 lg:col-span-1">
                         <p className="font-semibold text-white">Contact Us</p>
 
                         <div className="flex flex-col items-start mt-5 space-y-2">
@@ -74,7 +74,7 @@ const Footer = () => {
 
                 <hr className="my-6 border-gray-600 md:my-10 " />
 
-                <div className="flex flex-col items-center justify-between sm:flex-row">
+                <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
                     <a href="#">
                         <img className="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
                     </a>
