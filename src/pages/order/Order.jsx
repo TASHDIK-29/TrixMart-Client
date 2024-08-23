@@ -9,7 +9,7 @@ const Order = () => {
     const {user} = useAuth();
 
     return (
-        <div>
+        <div className="min-h-[75vh]">
             <h1 className="text-3xl font-normal text-gray-800  lg:text-3xl ">
                  <span>{user?.firstName}</span>s Orders
             </h1>

@@ -66,7 +66,7 @@ const Footer = () => {
                         <div className="flex flex-col items-start mt-5 space-y-2">
                             <h3 className="text-white text-base">Got questions? Call us 24/7!</h3>
                             <p className=" transition-colors duration-300 text-gray-300  hover:underline hover:text-blue-500 flex items-center gap-4"><MdOutlinePhonelinkRing className="text-lg" /> +880 768 473 4978</p>
-                            <p className="text-white text-lg flex items-center gap-4"><RiMapPinLine className="text-2xl" />561 Wellington Road, Street 32, San Francisco</p>
+                            <p className="text-white text-lg flex items-start gap-4"><RiMapPinLine className="text-2xl" />561 Wellington Road, Street 32, San Francisco</p>
                             <p className=" transition-colors duration-300 text-gray-300  hover:underline hover:text-blue-500 flex items-center gap-4"><MdOutlineMarkEmailRead className="text-lg" />support@trixmart.com</p>
                         </div>
                     </div>
