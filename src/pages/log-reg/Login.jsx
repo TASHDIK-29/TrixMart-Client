@@ -54,7 +54,7 @@ const Login = () => {
         <div className="min-h-[70vh] flex justify-center items-center ">
             <div className="space-y-4 lg:w-1/2">
                 <h1 className="text-4xl font-bold">Login To Your Account</h1>
-                <p>Have no account with us ? please <Link to={'/register'} className="text-left font-bold text-purple-500 text-lg">Register</Link> now.</p>
+                <p>Have no account with us ? please <Link to={'/register'} className="text-left font-bold text-orange-400 text-lg"><span>Register</span></Link> now.</p>
 
                 <div>
                     <form onSubmit={handelLogin}>
@@ -65,7 +65,7 @@ const Login = () => {
                             <label className="text-slate-400 font-semibold">Password</label>
                             <input type="password" name="password" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Enter Password" />
                             <div></div>
-                            <button type="submit" className="border p-2 text-slate-600 font-bold col-span-4">Login</button>
+                            <button type="submit" className="border-2 border-orange-400 p-2 text-orange-600 font-bold col-span-4">Login</button>
                         </div>
                     </form>
                 </div>

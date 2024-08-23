@@ -40,7 +40,7 @@ const Dropdown = () => {
             {/* Dropdown toggle button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="relative z-10 flex items-center p-2 text-sm  border border-transparent rounded-md focus:border-blue-500 focus:ring-opacity-40  focus:ring-blue-400 focus:ring text-white focus:outline-none"
+                className="relative z-10 flex items-center p-2 text-sm  border border-transparent rounded-md text-white focus:outline-none bg-gradient-to-r from-orange-500  to-yellow-400"
             >
                 <span className="mx-1">{user && user.firstName}</span>
                 <svg

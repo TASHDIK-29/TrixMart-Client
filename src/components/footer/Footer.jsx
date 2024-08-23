@@ -75,15 +75,15 @@ const Footer = () => {
                 <hr className="my-6 border-gray-600 md:my-10 " />
 
                 <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-                    <a href="#">
-                        <img className="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
-                    </a>
+                    <h1>
+                        <span className="text-3xl font-bold bg-300% bg-gradient-to-r from-orange-500  to-yellow-400 text-transparent bg-clip-text animate-gradient">TrixMart</span>
+                    </h1>
                     <p className="mt-4 text-sm text-gray-500 sm:mt-0 ">© Copyright 2021. All Rights Reserved.</p>
                     <div className="flex gap-5 items-center">
-                        <button className="rounded-full p-2 bg-slate-300"><FaTwitter className="text-2xl text-slate-700 hover:text-blue-500" /></button>
-                        <button className="rounded-full p-2 bg-slate-300"><FaFacebook className="text-2xl text-slate-700 hover:text-blue-500" /></button>
-                        <button className="rounded-full p-2 bg-slate-300"><FaInstagram className="text-2xl text-slate-700 hover:text-blue-500" /></button>
-                        <button className="rounded-full p-2 bg-slate-300"><FaPinterest className="text-2xl text-slate-700 hover:text-blue-500" /></button>
+                        <button className="rounded-full p-2 bg-slate-300 hover:bg-orange-400"><FaTwitter className="text-2xl text-slate-700 hover:text-blue-500" /></button>
+                        <button className="rounded-full p-2 bg-slate-300 hover:bg-orange-400"><FaFacebook className="text-2xl text-slate-700 hover:text-blue-500" /></button>
+                        <button className="rounded-full p-2 bg-slate-300 hover:bg-orange-400"><FaInstagram className="text-2xl text-slate-700 hover:text-blue-500" /></button>
+                        <button className="rounded-full p-2 bg-slate-300 hover:bg-orange-400"><FaPinterest className="text-2xl text-slate-700 hover:text-blue-500" /></button>
                     </div>
                 </div>
             </div>

@@ -50,7 +50,7 @@ const Register = () => {
     return (
         <div className="space-y-4">
             <h1 className="text-4xl font-bold">Register Your Account</h1>
-            <p>If you have an account with us, please login at the <Link to={'/login'} className="text-purple-600 font-bold text-lg">Login</Link> page</p>
+            <p>If you have an account with us, please login at the <Link to={'/login'} className="text-orange-400 font-bold text-lg">Login</Link> page</p>
             <div className="space-y-2">
                 <h3 className="text-xl text-slate-500 font-semibold">Your Personal Details</h3>
 
@@ -72,7 +72,7 @@ const Register = () => {
                             <label className="text-slate-400 font-semibold">Password</label>
                             <input type="password" name="password" className="col-span-4 p-2 border border-slate-300 hover:border-2 hover:border-black" placeholder="Enter Password" />
                             <div></div>
-                            <button type="submit" className="border p-2 text-slate-600 font-bold col-span-4">Register</button>
+                            <button type="submit" className="border-2 border-orange-400 p-2 text-orange-600 font-bold col-span-4">Register</button>
                         </div>
                     </form>
                 </div>

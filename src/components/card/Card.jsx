@@ -11,7 +11,7 @@ const Card = ({ item }) => {
 
     const axiosSecure = useAxiosSecure();
 
-    const { productName, image, price, rating, _id } = item;
+    const { productName, image, price, ratings, _id } = item;
 
     const handleAddToCart = async () => {
         const cartInfo = {
@@ -40,7 +40,7 @@ const Card = ({ item }) => {
                 <div className="flex gap-2 mt-2 item-center">
                     <Rating
                         style={{ maxWidth: 120 }}
-                        value={rating}
+                        value={ratings}
                         readOnly
                     />
                 </div>
@@ -50,7 +50,7 @@ const Card = ({ item }) => {
 
             <div className="flex items-center justify-between px-4 py-2">
                 <h1 className="text-lg font-bold ">${price}</h1>
-                <button onClick={handleAddToCart} className="px-2 py-2 text-xs font-bold text-white uppercase transition-colors duration-300 transform bg-black opacity-50 rounded focus:bg-gray-400 focus:outline-none">Add to cart</button>
+                <button onClick={handleAddToCart} className="px-2 py-2 text-xs font-bold text-white uppercase transition-colors duration-300 transform bg-gradient-to-r from-orange-500  to-yellow-400 rounded focus:bg-gray-400 focus:outline-none">Add to cart</button>
             </div>
         </div>
     );
