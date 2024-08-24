@@ -7,7 +7,7 @@ import { GoTriangleRight } from "react-icons/go";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-    const { user, furniture, toys, gadgets, cloths } = useContext(AuthContext);
+    const { user, furniture, toys, gadgets, cloths, loading } = useContext(AuthContext);
     console.log(user, furniture, toys, gadgets, cloths);
 
     useEffect(() => {
@@ -20,6 +20,7 @@ const Home = () => {
                 <title>TrixMart | Home</title>
             </Helmet>
             <Banner />
+            {loading && <div className="flex justify-center"><span className="loading loading-infinity loading-lg"></span></div> }
             <div className="mt-16">
                 <h1 className="text-2xl font-bold">Trendy Cloths</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 my-6">

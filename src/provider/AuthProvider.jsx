@@ -11,6 +11,7 @@ export const useAuth = () => useContext(AuthContext);
 const AuthProvider = ({ children }) => {
 
     const [user, setUser] = useState(null);
+    const [loading, setLoading] = useState(false);
 
     const [cloths, setCloths] = useState([])
     const [gadgets, setGadgets] = useState([])
@@ -24,6 +25,7 @@ const AuthProvider = ({ children }) => {
         }
 
         const loadHomeData = async() =>{
+            setLoading(true);
             const res = await axiosPublic.get('/homeData')
             console.log(res.data);
 
@@ -31,6 +33,7 @@ const AuthProvider = ({ children }) => {
             setGadgets(res.data.gadgets)
             setToys(res.data.toys)
             setFurniture(res.data.furniture)
+            setLoading(false)
         }
 
         loadHomeData();
@@ -64,7 +67,7 @@ const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, setUser, login, logout, furniture, toys, gadgets, cloths }}>
+        <AuthContext.Provider value={{ user, setUser, login, logout, loading, furniture, toys, gadgets, cloths }}>
             {children}
         </AuthContext.Provider>
     );

@@ -52,7 +52,7 @@ const Gadgets = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="lg:w-1/2">
                     <h1 className="text-3xl font-normal">Our Exclusive Gadgets Collections</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum totam provident incidunt eius debitis voluptates in illo voluptas fugit modi.</p>
+                    <p>Stay ahead with our innovative gadgets. Whether you're looking for the latest smartphones, smart home devices, or tech accessories, we've got the essentials to enhance your digital lifestyle.</p>
                 </div>
                 <div className="lg:w-1/2">
                     <Lottie className="w-1/2 md:w-1/3 mx-auto" animationData={shopping} />
@@ -60,7 +60,7 @@ const Gadgets = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {
-                    products.length > 0 ? products.map((item, idx) => <Card key={idx} item={item} />) : 'loading'
+                    products.length > 0 ? products.map((item, idx) => <Card key={idx} item={item} />) : <div className="col-span-4 flex justify-center"><span className="loading loading-infinity loading-lg"></span></div>
                 }
             </div>
 
