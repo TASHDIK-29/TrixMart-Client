@@ -5,6 +5,7 @@ import { useAuth } from "../../provider/AuthProvider";
 import { imageUpload } from "../../utils/image";
 import img from '../../assets/placeholderImg.jpg'
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Profile = () => {
 
@@ -23,6 +24,7 @@ const Profile = () => {
 
     useEffect(() => {
         refetch();
+        window.scroll(0, 0);
     }, [userInfo])
 
 
@@ -64,9 +66,9 @@ const Profile = () => {
 
     return (
         <section className="bg-white">
-            {/* <Helmet>
-                <title>Profile || Ship Ninja</title>
-            </Helmet> */}
+            <Helmet>
+                <title>TrixMart | {user.firstName} Profile</title>
+            </Helmet>
             <div className="  mx-auto">
                 <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl ">
                     Hello, {userInfo?.firstName}

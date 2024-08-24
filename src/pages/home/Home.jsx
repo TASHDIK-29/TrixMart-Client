@@ -1,16 +1,24 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import Banner from "../../components/banner/Banner";
 import Card from "../../components/card/Card";
 import { Link } from "react-router-dom";
 import { GoTriangleRight } from "react-icons/go";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
     const { user, furniture, toys, gadgets, cloths } = useContext(AuthContext);
     console.log(user, furniture, toys, gadgets, cloths);
+
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, []);
     
     return (
         <div>
+            <Helmet>
+                <title>TrixMart | Home</title>
+            </Helmet>
             <Banner />
             <div className="mt-16">
                 <h1 className="text-2xl font-bold">Trendy Cloths</h1>

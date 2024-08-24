@@ -1,8 +1,14 @@
+import { Helmet } from "react-helmet-async";
 import OrderCard from "../../components/card/OrderCard";
 import useOrders from "../../hooks/useOrders";
 import { useAuth } from "../../provider/AuthProvider";
+import { useEffect } from "react";
 
 const Order = () => {
+
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, []);
 
     const [orders] = useOrders();
 
@@ -10,6 +16,9 @@ const Order = () => {
 
     return (
         <div className="min-h-[75vh]">
+            <Helmet>
+                <title>TrixMart | {user.firstName} Order</title>
+            </Helmet>
             <h1 className="text-3xl font-normal text-gray-800  lg:text-3xl ">
                  <span>{user?.firstName}</span>s Orders
             </h1>

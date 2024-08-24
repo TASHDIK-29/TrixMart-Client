@@ -4,6 +4,7 @@ import shopping from '../../assets/shopingCar.json'
 import Lottie from "lottie-react";
 import { useEffect, useState } from "react";
 import { totalProduct } from "../../utils/pagination";
+import { Helmet } from "react-helmet-async";
 
 const Furniture = () => {
 
@@ -15,7 +16,9 @@ const Furniture = () => {
         const countProduct = async () => {
             setCount(await totalProduct('cloth'))
         }
-        countProduct()
+        countProduct();
+
+        window.scroll(0, 0);
 
     }, [currentPage])
 
@@ -43,6 +46,9 @@ const Furniture = () => {
 
     return (
         <div className="space-y-10">
+            <Helmet>
+                <title>TrixMart | Furniture</title>
+            </Helmet>
             <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="lg:w-1/2">
                     <h1 className="text-3xl font-normal">Our Exclusive Furniture Collections</h1>

@@ -50,7 +50,7 @@ const AllCartModal = () => {
     // }, 0).toFixed(2)
 
 
-    const handleCart = async (option, id, quantity) => {
+    const handleCart = async (option, id, quantity, productName) => {
         const res = await axiosPublic.patch('/handleCart', { option, id, quantity })
 
         console.log(res.data);
@@ -58,6 +58,10 @@ const AllCartModal = () => {
         if (res.data?.remove?.deletedCount) {
             refetch();
             reloadOrder();
+
+            if(res.data?.order?.insertedId){
+                toast.success(`${productName} Order Confirmed`)
+            }
         }
     }
 
@@ -113,7 +117,7 @@ const AllCartModal = () => {
                                                         <span>Remove</span>
                                                     </button>
                                                     <button
-                                                        onClick={() => handleCart('confirm', cart._id, cart.quantity)}
+                                                        onClick={() => handleCart('confirm', cart._id, cart.quantity, cart.productName)}
                                                         type="button" className="flex items-center px-2 py-1 space-x-1">
                                                         <MdOutlineConfirmationNumber className="text-lg" />
                                                         <span>Confirm Order</span>

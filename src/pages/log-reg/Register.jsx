@@ -1,8 +1,14 @@
 import { Link, useNavigate } from "react-router-dom";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 
 const Register = () => {
+
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, []);
 
 
     const axiosPublic = useAxiosPublic();
@@ -49,6 +55,9 @@ const Register = () => {
 
     return (
         <div className="space-y-4">
+            <Helmet>
+                <title>TrixMart | Register</title>
+            </Helmet>
             <h1 className="text-4xl font-bold">Register Your Account</h1>
             <p>If you have an account with us, please login at the <Link to={'/login'} className="text-orange-400 font-bold text-lg">Login</Link> page</p>
             <div className="space-y-2">

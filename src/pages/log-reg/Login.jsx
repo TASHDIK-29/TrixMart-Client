@@ -1,26 +1,22 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
+
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, []);
 
 
     const { login, user, setUser } = useContext(AuthContext);
 
-    // const [passwordError, setPasswordError] = useState(null)
-    // const [credentialError, setCredentialError] = useState(null)
-
     const navigate = useNavigate();
-
-    // const [user, refetch] = useUserInfo()
-    // console.log('user info from login =', user);
 
     const handelLogin = async e => {
         e.preventDefault();
-
-        // setCredentialError(null);
-        // setPasswordError(null);
 
         const form = e.target;
 
@@ -52,6 +48,9 @@ const Login = () => {
 
     return (
         <div className="min-h-[70vh] flex justify-center items-center ">
+            <Helmet>
+                <title>TrixMart | Login</title>
+            </Helmet>
             <div className="space-y-4 lg:w-1/2">
                 <h1 className="text-4xl font-bold">Login To Your Account</h1>
                 <p>Have no account with us ? please <Link to={'/register'} className="text-left font-bold text-orange-400 text-lg"><span>Register</span></Link> now.</p>
