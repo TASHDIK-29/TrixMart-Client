@@ -49,6 +49,10 @@ const router = createBrowserRouter([
         element: <Furniture />
       },
       {
+        path: '/search',
+        element: <SearchProducts />
+      },
+      {
         path: '/profile',
         element: <PrivateRoute><Profile /></PrivateRoute>
       },
@@ -74,6 +78,8 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import { SearchProvider } from './provider/SearchProvider';
+import SearchProducts from './pages/search/SearchProducts';
 
 
 const queryClient = new QueryClient()
@@ -82,11 +88,13 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
       <CartProvider>
-        <HelmetProvider>
-          <AuthProvider>
-            <RouterProvider router={router} />
-          </AuthProvider>
-        </HelmetProvider>
+        <SearchProvider>
+          <HelmetProvider>
+            <AuthProvider>
+              <RouterProvider router={router} />
+            </AuthProvider>
+          </HelmetProvider>
+        </SearchProvider>
       </CartProvider>
     </QueryClientProvider>
     <Toaster />

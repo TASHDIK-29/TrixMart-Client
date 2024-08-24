@@ -1,12 +1,15 @@
 
-import React, { useContext, useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { useContext, useState } from 'react';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../provider/AuthProvider';
 import Dropdown from '../dropdown/Dropdown';
+import { useSearch } from '../../provider/SearchProvider';
 
 const Navbar = () => {
 
     const { user } = useContext(AuthContext);
+    const {search, setSearch} = useSearch()
+    const navigate = useNavigate();
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -111,6 +114,7 @@ const Navbar = () => {
                                 </span>
 
                                 <input
+                                    onChange={(e) => {setSearch(e.target.value) ; navigate('/search')}}
                                     type="text"
                                     className="w-full py-1 pl-10 pr-4 border-b border-gray-600 placeholder-gray-300 focus:border-gray-300 lg:w-56 lg:border-transparent
                                      bg-transparent text-gray-700 focus:outline-none"
