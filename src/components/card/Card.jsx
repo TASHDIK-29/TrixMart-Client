@@ -4,6 +4,7 @@ import { AuthContext } from "../../provider/AuthProvider";
 import toast from "react-hot-toast";
 import { Rating } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'
+import Swal from "sweetalert2";
 
 const Card = ({ item }) => {
 
@@ -14,6 +15,14 @@ const Card = ({ item }) => {
     const { productName, image, price, ratings, _id } = item;
 
     const handleAddToCart = async () => {
+
+        if(!user){
+            return Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "You have to Login first !",
+              });
+        }
         const cartInfo = {
             email: user.email,
             productName,

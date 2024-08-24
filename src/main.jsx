@@ -42,11 +42,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/profile',
-        element: <Profile />
+        element: <PrivateRoute><Profile /></PrivateRoute>
       },
       {
         path: '/orders',
-        element: <Order />
+        element: <PrivateRoute><Order /></PrivateRoute>
       },
       {
         path: '/login',
@@ -73,6 +73,7 @@ import Furniture from './pages/productPages/Furniture';
 import { CartProvider } from './provider/CartProvider';
 import Profile from './pages/profile/Profile';
 import Order from './pages/order/Order';
+import PrivateRoute from './private/PrivateRoute';
 
 const queryClient = new QueryClient()
 
