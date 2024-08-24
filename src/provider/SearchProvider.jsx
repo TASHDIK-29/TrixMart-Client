@@ -12,7 +12,7 @@ export const SearchProvider = ({ children }) => {
 
     const axiosPublic = useAxiosPublic();
 
-    const { data: products = [] } = useQuery({
+    const { data: products = [], isLoading } = useQuery({
         queryKey: ['products', search],
         queryFn: async () => {
             const res = await axiosPublic.get('/searchProducts', { params: { search } });
@@ -24,7 +24,7 @@ export const SearchProvider = ({ children }) => {
 
 
     return (
-        <SearchContext.Provider value={{ search, setSearch, products }}>
+        <SearchContext.Provider value={{ search, setSearch, products, isLoading }}>
             {children}
         </SearchContext.Provider>
     );
