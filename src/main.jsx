@@ -26,6 +26,7 @@ import { HelmetProvider } from 'react-helmet-async'
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <MainLayout />,
     children: [
       {
@@ -80,6 +81,7 @@ import {
 } from '@tanstack/react-query'
 import { SearchProvider } from './provider/SearchProvider';
 import SearchProducts from './pages/search/SearchProducts';
+import ErrorPage from './pages/error/ErrorPage';
 
 
 const queryClient = new QueryClient()
